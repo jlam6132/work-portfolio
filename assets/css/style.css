@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    color: #CCCCFF;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: #CCCCFF;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+footer {
+    background: #CCCCFF;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #FFFFFF;
+    font-size: 55px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    margin: 25px 0;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+section {
+    padding: 60px;
+}
+
+/* Hero Style Start */
+.hero {
+    background: url("../images/work-portfolio-photo.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* Hero Style End */
+
+/* About Me Style Start */
+.intro h2 {
+    font-size: 55px;
+    color: #CCCCFF;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #CCCCFF;
+    width: 60%;
+    font-size: 22px;
+    margin: auto 0;
+}
+/* About Me Style End */
+
+
