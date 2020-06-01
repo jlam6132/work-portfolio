@@ -51,17 +51,18 @@ footer {
     background: #CCCCFF;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 footer h2 {
-    display: inline;
     color: #FFFFFF;
-    font-size: 50px;
+    font-size: 60px;
     margin: 0;
 }
 
 footer div {
-    float: right;
     margin: 25px 0;
     line-height: 1.5;
     font-size: 20px;
@@ -82,19 +83,27 @@ section {
 /* Hero Style End */
 
 /* About Me Style Start */
-.intro h2 {
-    font-size: 50px;
-    color: #CCCCFF;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
+.intro {
+    margin: 50px auto;
+    padding-bottom: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.intro p {
+.intros {
+    font-size: 45px;
+    color: #CCCCFF;
+}
+
+.about-me-text {
     line-height: 1.7;
     color: #CCCCFF;
     width: 60%;
-    font-size: 22px;
-    margin: auto 0;
+    font-size: 20px;
+    margin: 0 auto;
 }
 
 .about-me-text {
@@ -104,4 +113,86 @@ section {
 }
 /* About Me Style End */
 
+/* Work Style Start */
+.work {
+    margin: 50px auto;
+    padding-bottom: 40px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.works {
+    font-size: 45px;
+    color: #CCCCFF;
+}
+/* Work Style End */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+
+    .intro {
+      width: 80%;
+    }
+    
+    .work {
+        width: 80%
+    }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+  
+    .intros {
+      flex: 2 100%;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .about-me-text {
+      flex: 100%;  
+    }
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+   
+  
+    .intro {
+      width: 95%;
+    }
+  
+    .about-me-text {
+      width: 100%;
+    }
+}
+}
