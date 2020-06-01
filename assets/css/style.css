@@ -134,6 +134,25 @@ section {
     font-size: 45px;
     color: #CCCCFF;
 }
+
+.run-buddy {
+    width: 450px;
+    margin: 0 auto 30px auto;
+    background: #CCCCFF;
+    color: #FFFFFF;
+    overflow: auto;
+}
+
+.run-buddy img {
+    width: 35%;
+    float: left;
+}
+
+.run-buddy-bio {
+    padding: 35px;
+    float: left;
+    width: 65%
+}
 /* Work Style End */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
