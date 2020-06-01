@@ -47,6 +47,12 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+header nav ul li a:hover {
+    background: #c8a2c8;
+    border-radius: 100px;
+    text-shadow: none;
+}
+
 footer {
     background: #CCCCFF;
     width: 100%;
