@@ -137,10 +137,11 @@ section {
 
 .run-buddy {
     width: 450px;
-    margin: 0 auto 30px auto;
+    margin: -90px auto 30px auto;
     background: #CCCCFF;
     color: #FFFFFF;
     overflow: auto;
+    border: solid 4px blueviolet;
 }
 
 .run-buddy img {
@@ -152,6 +153,27 @@ section {
     padding: 35px;
     float: left;
     width: 65%
+}
+
+.covid-19 {
+  width: 450px;
+  margin: 0 auto 30px auto;
+  background: #CCCCFF;
+  color: #FFFFFF;
+  overflow: auto;
+  border: solid 4px blueviolet;
+}
+
+.covid-19 img {
+  width: 35%;
+  height: 100px;
+  float: left;
+}
+
+.covid-19-bio {
+  padding: 35px;
+  float: left;
+  width: 65%
 }
 /* Work Style End */
 
